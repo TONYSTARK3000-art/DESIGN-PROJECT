@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 800px;
+}
+
+h1 {
+    font-size: 36px;
+    color: green;
+}
+
+p {
+    font-size: 18px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: 50%;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Apply a full-page dark background */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4a525a;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes sure the content takes the full viewport height */
+    text-align: center;
+}
+
+/* Style the message */
+.message {
+    font-size: 2.5rem; /* Increase font size */
+    font-weight: bold;
+}
+
+#captcha-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.captcha-box {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.captcha-box h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.captcha-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}

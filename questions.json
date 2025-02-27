@@ -1,0 +1,14 @@
+{
+  "questions": [
+    { "question": "What is 5 + 3?", "answer": "8" },
+    { "question": "What is the capital of France?", "answer": "Paris" },
+    { "question": "What is 12 - 7?", "answer": "5" },
+    { "question": "Complete the word: Elep_ _ _ nt", "answer": "Elephant" },
+    { "question": "What is 4 x 6?", "answer": "24" },
+    { "question": "What is the synonym of 'happy'?", "answer": "Joyful" },
+    { "question": "What is 20 divided by 5?", "answer": "4" },
+    { "question": "Which planet is known as the Red Planet?", "answer": "Mars" },
+    { "question": "What is 9 squared?", "answer": "81" },
+    { "question": "Spell the opposite of 'win'", "answer": "Lose" }
+  ]
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uninstall Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Enter Your Password to Uninstall</h1>
+    <input type="password" id="verifyPassword" placeholder="Enter your password">
+    <button id="confirmUninstall">Confirm</button>
+
+    <script src="js/uninstall.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uninstall</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .uninstall-box {
+            background: white;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+        }
+        .uninstall-box h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .uninstall-box input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="uninstall-box">
+        <h1>In order to uninstall me, please enter your PIN:</h1>
+        <input type="password" placeholder="Enter PIN">
+        <button>Submit</button>
+    </div>
+</body>
+</html>

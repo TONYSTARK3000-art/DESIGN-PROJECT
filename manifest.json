@@ -1,0 +1,13 @@
+{
+  "name": "Game Blocker",
+  "version": "1.0",
+  "permissions": [
+      "storage",
+      "activeTab",
+      "webNavigation"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "manifest_version": 3
+}

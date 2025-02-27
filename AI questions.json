@@ -1,0 +1,7 @@
+// questions.json (This file stores all questions and answers)
+[
+    { "question": "What is 5 + 3?", "answer": "8" },
+    { "question": "What is the capital of France?", "answer": "Paris" },
+    { "question": "What is 12 - 7?", "answer": "5" }
+  ]
+  

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Blocked</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="message">
+        <h1>This website has been</h1>
+        <h1>blocked</h1>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocked</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #4a4f54;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .message {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">This website has been blocked</div>
+    <!-- CAPTCHA Popup -->
+<div id="captcha-popup">
+    <div class="captcha-box">
+        <h1>Complete the CAPTCHA</h1>
+        <p>Prove you're not a bot to continue.</p>
+        <input type="text" placeholder="Enter CAPTCHA">
+        <button>Submit</button>
+    </div>
+</div>
+
+<script>
+    // Show CAPTCHA popup after 3 seconds
+    setTimeout(() => {
+        document.getElementById('captcha-popup').style.display = "flex";
+    }, 3000);
+</script>
+
+</body>
+</html>
